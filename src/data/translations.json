@@ -162,6 +162,7 @@
 "08263cc6d2d10469ccac47ae8c6e9156cce4b6d7": "Vertex: dodano obsługę Web Search dla obsługiwanych modeli",
 "0859bfe3ac6df2023d35771f5854816755b0af70": "Poprawiono nieudane wywołania narzędzi, których nie dało się rozwinąć kliknięciem w trybie pełnoekranowym, gdy ich wynik był obcięty",
 "08783a105b9053a469d0d2b45d28065998b07581": "Poprawiono Bash kończący się błędem \"argument list too long\" w repozytoriach z wieloma git worktrees",
+"0880f14eab552f79424c66b45caacf60fc599260": "Poprawiono awarię przy uruchamianiu na dystrybucjach Linuksa z biblioteką glibc 2.44 (na przykład Arch Linux, CachyOS i Fedora Rawhide)",
 "0885fb6e717f4ae08ffe9fda62dc70677b6c5937": "Poprawiono przypięte agenty w tle ponownie proszone o \"Continue from where you left off\" po każdej automatycznej aktualizacji",
 "089145c8cb0688a93654a7ea2abc0f2c76ed8626": "Dodano ustawienie `allowRead` systemu plików sandbox, aby ponownie zezwolić na dostęp do odczytu w obszarach `denyRead`",
 "08924baf6f10a4072b16e5100acfd59e94ad3ee6": "VSCode: Dodano obsługę URI `vscode://anthropic.claude-code/open` do programowego otwierania nowej karty Claude Code, z opcjonalnymi parametrami zapytania `prompt` i `session`",
