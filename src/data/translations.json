@@ -383,6 +383,7 @@
 "112a3248b898025a168d80eb5d6ad8ef5edd0bf8": "Poprawiono problem przy korzystaniu z Opus 4.8, w którym bloki rozumowania (thinking) były modyfikowane, co prowadziło do błędów API.",
 "11311117df4e4a07e5a691ce4bcb21beabf09592": "Poprawiono niepowodzenie logowania OAuth serwera MCP z komunikatem \"No available ports for OAuth redirect\", gdy nie można powiązać lokalnego zakresu portów przekierowania",
 "11358547745e625eab48dd9cecd683a5183ea33b": "Poprawiono przewijanie kółkiem myszy w WSL2 pod Windows Terminal i VS Code (regresja w 2.1.172)",
+"11566b421a12d182c69fe5194c8f43531a5cc79a": "Poprawiono nieoczekiwane pytanie o uprawnienia dla przeznaczonych tylko do odczytu komend git w Bash po dłuższym czasie działania sesji (regresja w 2.1.269)",
 "1160c5e1c487948c19f20cfe9e6177a52d6d528f": "Poprawiono listę wyboru w `/model`, która po cichu ignorowała wybór Ultracode; wybranie Ultracode teraz stosuje je w bieżącej sesji",
 "11616fc5bdf551c59d6d2a971b03dd11af2c07d4": "Żądania API z subagentów zawierają teraz nagłówki `x-claude-code-agent-id` / `x-claude-code-parent-agent-id`, a spany OTEL `claude_code.llm_request` zawierają atrybuty `agent_id` / `parent_agent_id`",
 "11794effb89cb9db4ca18b04bb43f8e7c2b46ca6": "Poprawiono brak wstawiania nowej linii przez alt+enter w terminalach używających kodowania alt z prefiksem ESC oraz brak wstawiania nowej linii przez Ctrl+J (regresja w 2.1.100)",
