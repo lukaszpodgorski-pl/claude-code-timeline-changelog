@@ -2742,6 +2742,7 @@
 "7a4ec524ddc475d78d981111347d307b5545c8ba": "Dodano klikalne linki `[Image #N]`, które otwierają załączone obrazy w domyślnej przeglądarce",
 "7a4f1f1a0f12f96e905b468a1fb783d774f2bfe7": "Poprawiono przełączanie modeli za pomocą /model, które ponownie wysyłało wszystkie definicje narzędzi (brak trafienia w pamięci podręcznej promptu); tekst atrybucji commitów i PR-ów pojawia się teraz jako notatka rozmowy aktualizowana przy zmianie modelu",
 "7a5dac2ca0b38257687184a5f884b4ae428ef1e0": "Poprawiono licznik postępu zadań (np. `3/5`) wyświetlany dla sesji w chmurze działających w tle, takich jak `/autofix-pr`, który czasami pomijał zadanie",
+"7a669ad500bd6b1f35311d98830a3e273af4afac": "Poprawiono sytuację, w której każde żądanie kończyło się błędem `400 … Input tag 'advisor_20260301'`, gdy `ANTHROPIC_BASE_URL` wskazywał na proxy lub bramkę (regresja z wersji 2.1.275)",
 "7a6ffaff8c2e9a3701365fc85fbc62dd246eccb9": "VSCode: Dodano obsługę komendy `/extra-usage` w sesjach VS Code",
 "7a74b96fc9e47e93200b560eababe4371e7b9573": "Zmieniono sugestie instalacji pluginów/LSP oraz domyślną propozycję trybu auto tak, aby czekały, aż wyślesz lub wyczyścisz to, co piszesz, dzięki czemu Enter wysyłający prompt nie może na nie odpowiedzieć",
 "7a753eaae4ee1a47769d6733d32d445d9b78c657": "Poprawiono fałszywe ostrzeżenie \"sprawdź swoją sieć\", które pojawiało się podczas rozumowania doradcy",
