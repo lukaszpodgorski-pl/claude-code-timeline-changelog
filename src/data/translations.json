@@ -5458,6 +5458,7 @@
 "cca0c86d42a1333ab099f948f0ac55c3aa7a7c17": "Dodano opcjonalną zmienną środowiskową `CLAUDE_CODE_PROJECT_DIR_NAME`: hosty przydzielające każdej sesji własny katalog konfiguracji mogą wybrać krótką nazwę dla katalogu zapisów rozmów dla danego projektu",
 "cca2150e9b831d37cab2134f1493cf027d347601": "Poprawiono ciche zawieszanie się `--worktree`, gdy nazwa worktree zawierała ukośnik",
 "ccc91b987a80ee9804aa25ef11959f24407ba104": "Poprawiono niestandardowe tytuły sesji znikające z `/resume` po zapisaniu ponad ~64 KB rozmowy następującej po zmianie nazwy",
+"cccddaf9187611c90ca5306d5284f84ac59968c0": "Dodano You should know, wbudowany mod, w którym agent pomocniczy obserwuje Twoje działania i zwraca uwagę na rzeczy, które Ty lub Claude moglibyście przeoczyć. Włącz go poleceniem `/plugin enable cc-plugin-you-should-know@builtin` (dla sesji pierwszoplanowych z włączoną telemetrią)",
 "cce7d49fd2b9a9ae54804581637ab9fe88245a88": "Poprawiono niedostępność Remote Control w planach płatnych, gdy telemetria jest wyłączona za pomocą `DISABLE_TELEMETRY` lub `DO_NOT_TRACK`",
 "ccf0b8ca3f548e6c8b1121d6b6d8b81b361e23c7": "[VSCode] Poprawiono przywróconą kartę otwierającą rozmowę wciąż otwartą w innym procesie Claude; pyta teraz o to najpierw",
 "ccf72f5b456f8a2309eb32532c8c425dd930809c": "Zmieniono domyślny trailer commita na `Co-Authored-By: Claude Code`, gdy aktywny model nie jest rozpoznanym modelem Claude (np. modele firm trzecich za niestandardowym `ANTHROPIC_BASE_URL`)",
