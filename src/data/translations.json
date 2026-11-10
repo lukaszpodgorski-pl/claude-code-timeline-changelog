@@ -2266,6 +2266,7 @@
 "41d687bb71f7e70dba9310a3f69c9d43d9040449": "Self-hosted runner: Poprawiono orkiestrator zgłaszający przekroczenie czasu hooka spawn-runner, gdy runner uruchomiony w tle utrzymywał otwarte wyjście",
 "41e1d3ffe6fb983f0beef906c31ed3672fc1d0f2": "Poprawiono wyłączanie renderowania markdown dla całej wiadomości, gdy jej pierwsze 500 znaków nie zawierało markdown, a także dla list `+`/`N)` oraz nagłówków setext",
 "41e32cb5dd89ba61404fbd0458fe57103bf8d365": "Poprawiono: włączanie/wyłączanie w `/plugin` nie działało, gdy `name` w `plugin.json` pluginu różnił się od nazwy wpisu w marketplace",
+"41f0301a1c38583df59bb482ecb100f7a6c14446": "Dodano tryb szybki (fast mode) na Vertex w regionach global, us i eu, z powrotem do standardowej szybkości, jeśli Vertex go odrzuci",
 "41fec73c33cee2518d850587c65e327a9da8fb86": "Poprawiono podsumowanie kompaktowania powtarzające `/name`, które pozwalało Claude wywołać skill zarezerwowany dla użytkownika",
 "42066fdd0ba6a104792cf94da333082488ad9fde": "[VSCode] Dodano wiersze pod wiadomością, które otwierają wynik terminala, kartę przeglądarki, instrukcje przeglądarki oraz zaznaczony kod wysłany razem z nią",
 "4209e79e2005b18891f3214073b95c9201d0a88b": "Dodano wpisy wieloznaczne dla właściciela (`\"owner/*\"`) w ustawieniach zarządzanych `strictKnownMarketplaces` i `blockedMarketplaces`, umożliwiające zezwolenie na wszystkie repozytoria marketplace w ramach organizacji GitHub lub ich zablokowanie.",
